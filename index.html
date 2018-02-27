@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <script src="webrtc.js"></script>
+    </head>
+
+     <body>
+          <style>
+    body {
+                 background-image: url("bg.jpg");
+                 background-repeat: no-repeat;
+                 background-size: 100% 160;
+		         font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+
+		
+                 
+             }
+         </style>
+         
+     <h1 align="center" style="color:#fff; ">WebRTC Video Application</h1>
+     <h1 align="center" style="color:#fff;"> EE284 Project 2 - FALL 2017</h1>
+     <h2 align="center" style="color:#fff;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";"> TEAM 10</h2>
+      
+      
+    
+        <video id="lclVideo" autoplay muted style="width:40%;"></video>
+        <video id="rmtVideo" autoplay style="width:40%;"></video>
+
+        <br />
+
+        <input type="button" id="start" onclick="start(true)" value="Start Video Call" style="background:#fff;color:#000; padding: 11px; border: none; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif' ;   border-radius: 8px; font-weight: 500;">
+		 </input>
+       
+
+        <script type="text/javascript">
+            pageShow();
+        </script>
+    </body>
+</html>
